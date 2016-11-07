@@ -96,10 +96,16 @@ public class TestTask implements ReadOnlyTask {
 		return pri;
 	}
 
+	@Override
+	public Complete getComplete() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 	@Override
 	public String getDateString() {
-		return this.deadline.toString();
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	@Override
